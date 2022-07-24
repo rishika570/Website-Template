@@ -1,0 +1,153 @@
+#header{
+    background-color: grey;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 100px;
+    position: sticky;
+    top:0px;
+  }
+  #header ul{
+      display:flex;
+      list-style: none;
+      margin-left: 100px;
+  }
+  #header ul li{
+      font-size: 30px;
+      margin:20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 30px;
+      
+  }
+  #header ul li a{
+      text-transform: uppercase;
+      text-decoration: none;
+      color: white;
+      padding: 10px 20px;
+      transition: 0.5s;
+      border-radius: 10px;
+      
+  }
+  #header ul li a:hover{
+      background-color: white;
+      color: black;
+  }
+
+  #banner{
+      color: white;
+      text-align: center;
+      line-height: 500px;
+      width: 100%;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  #banner{
+      background-image: url("https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80");
+      background-size: cover;
+      background-position: center;
+  }
+  #sec-1{
+      display: flex;
+      justify-content: space-evenly;
+
+  }
+  .circle{
+      width:230px;
+      height:230px;
+      border-radius: 50%;
+      background-color: rgb(255, 153, 0);
+      margin:0px 15px;
+      display: flex;
+      justify-content: space-evenly;
+
+  }
+  img{
+    width:100%;
+  }
+  .circle:hover{
+    border:2px solid grey;
+  }
+  #sec-2{
+      display:flex;
+      color:white;
+      font-family: Arial, Helvetica, sans-serif;}
+      main{
+      background-color: grey;
+      width:50%;
+      height:538px;}
+      #ab{
+        font-size: 30px;
+        margin-top: 20px;
+      }
+      main p{
+        font-size: 21px;
+      }
+      aside{
+      width:50%;
+      height:500px;
+      }
+      .box{
+      height:163px;
+      background-color: rgb(255, 123, 0);
+      display: flex;
+      justify-content: space-evenly;
+      color: black;
+      line-height: 162px;
+      margin-left: 20px;
+      font-size: 20px;
+      }
+      #p1{
+        background-image: url("https://d2slcw3kip6qmk.cloudfront.net/marketing/blog/2019Q1/project-planning/why-is-project-management-important-header@2x.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      #art{
+          margin:24px 0px;
+          margin-left: 20px;
+          background-image: url("https://www.pinetreeweb.com/wp-content/uploads/2021/09/Project-Management-Best-Practices-for-Working-Remotely.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      #p3{
+        background-image: url("https://www.trio.dev/hubfs/project-management.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      #sec-3{
+          display:flex;
+          justify-content:space-evenly;
+      }
+      .square{
+          width:230px;
+          height:250px;
+          background-color:lightgrey;
+          box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+      }
+      .square h4{
+        margin:0px 10px;
+        text-align: center;
+      }
+      .square p{
+        color:white;
+        text-align: justify;
+      }
+      #sec-4{
+          display: flex;
+          justify-content: center;
+      }
+      #footer{
+          text-align: center;
+          font-family: Arial, Helvetica, sans-serif;
+          color: white;
+          width:100%;
+          height:100px;
+          background-color: rgb(235, 162, 186);
+          margin-top: 100px;
+      }
+      html{
+        scroll-behavior: smooth;
+        scroll-padding-top: 160px;
+      }
+    
